@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Noto+Sans&display=swap');
+
+:root {scroll-behavior: smooth;}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    --coloumn-padding: 15%;
+    --navi-padding: 20px;
+    --background: #10121c;
+    --accent: #1c2631;
+    --accent-secondary: #1e2434;
+    background-color: var(--background);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: var(--accent);
+    height: 60px;
+}
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+} 
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    padding-left: var(--coloumn-padding); 
+    padding-right: var(--coloumn-padding); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: xx-large;
+}
+.profile {
+    width: 50%;
+    border-radius: 50%;
+}
+footer.grid-item {
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+li.navi {
+    padding-left: var(--navi-padding);
+    padding-right: var(--navi-padding);
+}
+a {
+    text-decoration: none;
+    color: green;
+}
+a.navi, a.link {
+    color: white;
+}
+.spacer {
+    aspect-ratio: 960/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer-1 { background-image: url('./wave1.svg'); }
+.layer-2 { background-image: url('./wave2.svg'); }
+.layer-3 { background-image: url('./wave3.svg'); }
+/* .layer-4 { background-image: url('./stack.svg'); } */
+#skills {
+    background-color: var(--accent-secondary);
+}
+
+@media only screen and (min-width: 768px)  {
+    body {
+        --coloumn-padding: 35%;
+    }
+    .profile {
+        width: 30%;
+    }
+} 
