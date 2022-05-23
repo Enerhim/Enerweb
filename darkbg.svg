@@ -1,0 +1,45 @@
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect width="900" height="600" fill="#10121c"></rect>
+    <g>
+        <g transform="translate(220 146)">
+            <path d="M0 -40.2L34.8 -20.1L34.8 20.1L0 40.2L-34.8 20.1L-34.8 -20.1Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(175 410)">
+            <path d="M0 -19L16.5 -9.5L16.5 9.5L0 19L-16.5 9.5L-16.5 -9.5Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(94 503)">
+            <path d="M0 -25L21.7 -12.5L21.7 12.5L0 25L-21.7 12.5L-21.7 -12.5Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(373 348)">
+            <path d="M0 -17L14.7 -8.5L14.7 8.5L0 17L-14.7 8.5L-14.7 -8.5Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(760 393)">
+            <path d="M0 -21L18.2 -10.5L18.2 10.5L0 21L-18.2 10.5L-18.2 -10.5Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(476 183)">
+            <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(96 47)">
+            <path d="M0 -34L29.4 -17L29.4 17L0 34L-29.4 17L-29.4 -17Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(615 231)">
+            <path d="M0 -8L6.9 -4L6.9 4L0 8L-6.9 4L-6.9 -4Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(85 198)">
+            <path d="M0 -36L31.2 -18L31.2 18L0 36L-31.2 18L-31.2 -18Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(311 512)">
+            <path d="M0 -20L17.3 -10L17.3 10L0 20L-17.3 10L-17.3 -10Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(304 134)">
+            <path d="M0 -16L13.9 -8L13.9 8L0 16L-13.9 8L-13.9 -8Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(147 254)">
+            <path d="M0 -33L28.6 -16.5L28.6 16.5L0 33L-28.6 16.5L-28.6 -16.5Z" fill="#1c2631"></path>
+        </g>
+        <g transform="translate(265 400)">
+            <path d="M0 -9L7.8 -4.5L7.8 4.5L0 9L-7.8 4.5L-7.8 -4.5Z" fill="#1c2631"></path>
+        </g>
+    </g>
+</svg>

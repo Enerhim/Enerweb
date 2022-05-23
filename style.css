@@ -42,6 +42,11 @@ h1 {
 .profile {
     width: 50%;
     border-radius: 50%;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+.profile:hover {
+    transform: rotateZ(-20deg);
+    transition: 400ms;
 }
 footer.grid-item {
     margin: 0px;
@@ -57,10 +62,20 @@ li {
 li.navi {
     padding-left: var(--navi-padding);
     padding-right: var(--navi-padding);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+li.navi:hover {
+    padding-left: var(--navi-padding);
+    padding-right: var(--navi-padding);
+    background-color: #0f1119;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+    border-radius: 20px;
+    transition: 0.3s;
 }
 a {
     text-decoration: none;
-    color: green;
+    color: aqua;
 }
 a.navi, a.link {
     color: white;
@@ -75,10 +90,59 @@ a.navi, a.link {
 .layer-1 { background-image: url('./wave1.svg'); }
 .layer-2 { background-image: url('./wave2.svg'); }
 .layer-3 { background-image: url('./wave3.svg'); }
-/* .layer-4 { background-image: url('./stack.svg'); } */
-#skills {
+.secondary-color {
     background-color: var(--accent-secondary);
 }
+.home {
+    background-image: url("darkbg.svg");
+}
+#proj {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("darkbg.svg");
+}
+.proj-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 5%;
+}
+.project-img {
+    width: 100%;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+.project-img:hover {
+    width: 150%;
+    transition: 200ms;
+}
+.project-img, .prj-data {
+    margin-top: 0;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+}
+.from-left {
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+}   
+.from-left.appear {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.view-work {
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 
 @media only screen and (min-width: 768px)  {
     body {
@@ -86,5 +150,12 @@ a.navi, a.link {
     }
     .profile {
         width: 30%;
+    }
+    .proj-grid {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .project-img, .prj-data {
+        margin-top: 200px;
     }
 } 
