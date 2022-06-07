@@ -13,12 +13,18 @@
 </head>
 
 <body>
+    <div id="loader-wrapper">
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+        <img class="loading" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzQiIGhlaWdodD0iMjAwIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDAgMCkiPjxwYXRoIGZpbGw9IiMxYzI2MzEiIGQ9Ik04Mi4yNzIgMi41cTQuMzMtMi41IDguNjYgMGw3Ny45NDMgNDVxNC4zMyAyLjUgNC4zMyA3LjV2OTBxMCA1LTQuMzMgNy41bC03Ny45NDIgNDVxLTQuMzMgMi41LTguNjYgMGwtNzcuOTQzLTQ1UTAgMTUwIDAgMTQ1VjU1cTAtNSA0LjMzLTcuNXoiLz48L3N2Zz4="></img>
+    </div>
 
     <div>
         <nav>
             <ul class="navi">
                 <li class="navi"><a href="index.html#skills" class="navi">Skills</a></li>
                 <li class="navi"><a href="index.html#proj" class="navi">Projects</a></li>
+                <li class="navi"><a href="index.html#gigs" class="navi">Gigs</a></li>
                 <li class="navi"><a href="index.html#about" class="navi">About</a></li>
             </ul>
         </nav>
@@ -28,30 +34,29 @@
 
     <div class="grid-content ">
         <div class="grid-item home">
-            <h1 class="fade-in">Hi, my name is Himanshu Sharma</h1>
-            <hr style="width: 75%;" class="fade-in">
-            <h3 class="fade-in">I can do web development, artificial intelligence & much much more.</h3>
+            <p style="margin: 0">Hi, my name is</p>
+            <h1 class="fade-up title">Himanshu Sharma</h1>
+            <hr style="width: 75%;">
+            <h3 class="fade-up">I can do web development, artificial intelligence & much much more.</h3>
             <img src="pfp.jpg" alt="" class="profile fade-in">
 
             <a href="#proj" class="view-work">View my Work <i class="fa-solid fa-arrow-right"></i></a>
-            <p class="fade-in">I have been honing my programming skills for the last 4-5 years of my life and I one day
-                hope to create a
-                tech
-                unicorn which takes humanity beyond the stars to find the secrets of the universe</p>
+           
         </div>
         <div class="spacer layer-2"></div>
         <div class="grid-item secondary-color " id="skills">
             <hr style="width: 25%;">
-            <h2> <strong>Skills</strong> </h2>
+            <h2 class="slide-in from-left"> <strong>Skills</strong> </h2>
             <hr style="width: 25%;">
+            <div class="skill-text">
 
-            <p class="fade-in">I use <strong> HTML & CSS </strong> along with <strong> Javascript </strong> & <strong>
+                <p class="fade-up">I use <strong> HTML & CSS </strong> along with <strong> Javascript </strong> & <strong>
                     SVG
                 </strong>
                 for my web development projects. I try to keep up with the latest features while maintaining support for
                 older
                 or depricated features </p>
-            <p class="fade-in"> For backend development I usually use <strong> NodeJS </strong> or <strong> PHP
+                <p class="fade-up"> For backend development I usually use <strong> NodeJS </strong> or <strong> PHP
                 </strong>
                 along
                 with <strong> MongoDB </strong> or <strong> MySQL </strong>. I also often use <strong>Firebase</strong>
@@ -59,76 +64,72 @@
                 small projects. I am familiar with frameworks such as <strong>React</strong> or <strong>Angular</strong>
                 but
                 don't use them regularly. </p>
-            <p class="fade-in"> I am very well versed in the field of artificial intelligence and have made various
-                projects with
-                it on my <strong> <a target="_blank" href="https://github.com/Enerhim">Github</a> </strong>. I have also
-                completed a course by HarvardX on AI - <strong><a target="_blank"
-                        href="https://courses.edx.org/certificates/b7c99f17380343f59823e3b8e1adccab">Certificate</a></strong>
-            </p>
-            <p class="fade-in"> I started on this journey through the field of game development like many others. Unlike
-                many
-                others I still study game design to this day and have contributed towards many other games </a> </p>
-            <p class="fade-in"> Currently, i am learning <strong> Flutter </strong> as a side hobby to improve my app
-                development
-                skills </p>
+                <p class="fade-up"> I am very well versed in the field of artificial intelligence and have made various
+                    projects with
+                    it on my <strong> <a target="_blank" href="https://github.com/Enerhim">Github</a> </strong> using <strong>Python</strong>. I have also
+                    completed a course by HarvardX on AI - <strong><a target="_blank"
+                            href="https://courses.edx.org/certificates/b7c99f17380343f59823e3b8e1adccab">Certificate</a></strong>
+                </p>
+                <p class="fade-up"> I started on this journey through the field of game development with <strong>Unity </strong> & <strong>Blender</strong>.
+                <p class="fade-up"> Currently, i am learning <strong> Flutter </strong> as a side hobby to improve my app
+                    development
+                    skills </p>
+            </div>
         </div>
         <div class="spacer layer-3"></div>
         <div class="grid-item" id="proj">
-            <hr style="width: 25%;">
-            <h2> <strong>Projects</strong> </h2>
-            <hr style="width: 25%;">
+            <h2 class="slide-in from-left"> <strong>Projects</strong> </h2>
+            <hr style="width: 25%;" class="slide-in from-left">
             <div class="proj-grid">
                 <img src="videoweb.png" alt="" class="project-img from-left slide-in">
-                <div class="prj-data fade-in">
+                <div class="prj-data fade-up">
                     <h3>Vidshare</h3>
                     <p>A YouTube-like video website where the user can login, watch and upload videos as well as comment
                         on the videos.</p>
-                    <p>The website was made using <strong>PHP</strong> & <strong>MySQL</strong> as the backend along
-                        with <strong>HTML, Boostrap, CSS, JS</strong> for the frontend</p>
+                    <p><strong>Bootstrap, HTML, CSS & JS</strong><br><strong>PHP & MySQL</strong></p>
                     <a target="_blank" href="https://github.com/Enerhim/Video-Website">Github <i
                             class="fa fa-github-alt"></i></a>
                     <p>(Hosted link coming soon)</p>
                 </div>
 
                 <img src="cryptotracker.png" alt="" class="project-img from-left slide-in">
-                <div class="prj-data fade-in">
+                <div class="prj-data fade-up">
                     <h3>Crypton</h3>
                     <p>A small website which shows and regularly updates the prices of the top 7 most popular crypto
                         currencies.</p>
-                    <p>The website was made using <strong>NodeJS</strong> & <strong>Express</strong> as the backend
-                        along with <strong>HTML, Boostrap, CSS, JS</strong> for the frontend</p>
+                    <p><strong>Bootstrap, HTML, CSS, JS</strong><br><strong>NodeJS Express</strong></p>
                     <a href="https://github.com/Enerhim/Crypton">Github <i class="fa fa-github-alt"></i></a>
                     <p><a target="_blank" href="https://enerhim.github.io/Crypton/">Hosted Link</a></p>
                 </div>
 
 
                 <img src="roverimages.JPG" alt="" class="project-img from-left slide-in">
-                <div class="prj-data fade-in">
+                <div class="prj-data fade-up">
                     <h3>Mars Images Script</h3>
                     <p>A script which can fetch images of mars taken by rovers sent by NASA through the NASA Rover
                         Images API</p>
-                    <p>The script was made using <strong>Python</strong>. I plan to turn this into a web app later on
+                    <p><strong>Python</strong>
                     </p>
                     <a href="https://github.com/Enerhim/MarsRoverImages">Github <i class="fa fa-github-alt"></i></a>
                     <p>(Hosted link coming soon)</p>
                 </div>
 
                 <img src="flappybirdneat.png" alt="" class="project-img from-left  slide-in">
-                <div class="prj-data fade-in">
+                <div class="prj-data fade-up">
                     <h3>Flappy Bird NEAT</h3>
                     <p>A NEAT algorithm that learns to play flappy bird over many generations</p>
-                    <p>The AI was made using <strong>Python</strong> and the library <strong>NEAT</strong></p>
-                    <a href="https://github.com/Enerhim/FlappyBirdNEAT">Github <i class="fa fa-github-alt"></i></a>
+                    <p> <strong>Python</strong>  <strong>(NEAT Lib)</strong></p>
+        
+                    <p><a href="https://github.com/Enerhim/FlappyBirdNEAT">Github <i class="fa fa-github-alt"></i></a></p>
                 </div>
 
                 <img src="programminglang.png" alt="" class="project-img from-left  slide-in">
-                <div class="prj-data fade-in">
+                <div class="prj-data fade-up">
                     <h3>Custom Programming Language</h3>
                     <p>A programming language based on an older language called <strong>BASIC</strong>. The language has
                         all basic features of a programming language such as variable, conditions, loops,
                         functions...etc </p>
-                    <p>The language is interpreted using <strong>Python</strong>. The language might get a C++
-                        implimentation later on</p>
+                    <p><strong>Python</strong></p>
                     <a href="https://github.com/Enerhim/CustomProgrammingLanguage">Github <i
                             class="fa fa-github-alt"></i></a>
                 </div>
@@ -136,21 +137,42 @@
             </div>
         </div>
         <div class="spacer layer-2"></div>
-        <div class="grid-item secondary-color " id="about">
-            <hr style="width: 25%;">
-            <h2> <strong>About</strong> </h2>
-            <hr style="width: 25%;">
-            <p>I am a 15 year old that began his coding adventures at the age of 10 through game development.</p>
-            <p>Hobbies other than programming that I am into are philosophy, anything linked to big dogs and science!
-            </p>
-            <p>I constantly try to learn new things and expand my knowledge and brain.</p>
-            <p><i class="fa-solid fa-location-dot"></i> Vadodara, Gujarat</p>
-            <p><i class="fa-solid fa-ice-cream"></i> is my favourite food</p>
-            <p><i class="fa-brands fa-discord"></i> Enerhim#0427 </p>
+        <div class="grid-item secondary-color " id="gigs">
+
+            <h2 class="slide-in from-left"> <strong>Gigs</strong> </h2>
+            <hr style="width: 25%;" class="slide-in from-left">
+            <div class="gig-grid">
+                <div class="gig fade-up">
+                    <h2>
+                        Custom Portfolio Website
+                    </h2>
+                    <p>
+                        I will make you an amazing custom portfolio website with HTML, CSS & JS
+                        <br>
+                    </p>
+                    <a target="_blank" href="https://www.fiverr.com/enerhim/make-you-a-responsive-portfolio-website" class="view-gig">View more on Fiverr <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
         <div class="spacer layer-3"></div>
 
-        <footer class="grid-item layer-4">
+        <div class="grid-item  " id="about">
+            <h2 class="from-left slide-in"> <strong>About</strong> </h2>
+            <hr style="width: 25%;" class="from-left slide-in">
+            <p class="fade-up">I am a 15 year old that began his coding adventures at the age of 10 through game development.</p>
+            <p class="fade-up">I have been honing my programming skills for the last 4-5 years of my life and I one day
+                hope to create a
+                tech
+                unicorn which takes humanity beyond the stars to find the secrets of the universe</p>
+            <p class="fade-up">Hobbies other than programming that I am into are philosophy, anything linked to big dogs and science!
+            </p>
+            <p class="fade-up">I constantly try to learn new things and expand my knowledge and brain.</p>
+            <p class="fade-up"><i class="fa-solid fa-location-dot"></i> Vadodara, Gujarat</p>
+            <p class="fade-up"><i class="fa-solid fa-ice-cream"></i> is my favourite food</p>
+        </div>
+        <div class="spacer layer-2"></div>
+
+        <footer class="grid-item secondary-color layer-4">
             <ul>
                 <li><a class="link" href="https://github.com/Enerhim" title="Enerhim on GitHub" rel="me"
                         target="_blank"><i class="fa fa-github-alt"></i></a></li>
@@ -159,7 +181,13 @@
                 <li><a class="link" href="https://www.linkedin.com/in/himanshu-sharma-4b7347204/" rel="me"
                         title="Enerhim on LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             </ul>
-            <h5>himsharma.contact@gmail.com</h5>
+            
+            <h5>
+                <i class="fa-brands fa-discord"></i> Enerhim#0427
+                <br>
+                <br>
+                himsharma.contact@gmail.com 
+            </h5>
         </footer>
     </div>
     </script>
