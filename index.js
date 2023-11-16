@@ -24,7 +24,7 @@ document.onload = setTimeout( function () {
         const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
             entries.forEach(entry => {
                 if (!entry.isIntersecting) {
-                    entry.target.classList.remove('appear')
+                    // entry.target.classList.remove('appear')
                     
                 } else {
                     entry.target.classList.add('appear')
